@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ========================================================
+         PENGATURAN HALAMAN HOME
+         Ubah judul tab browser dan deskripsi Google di bagian ini.
+         ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Sultan Malik - Creative and Design Production."
+    >
+    <title>Sultan Malik - Home</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+
+  <body data-page="home">
+    <div class="site-shell">
+      <!-- HEADER DAN MENU
+           Isi header dibuat oleh src/common.js. -->
+      <div id="site-header"></div>
+
+      <main class="home-page">
+        <!-- ======================================================
+             HERO HOME
+             Ubah label, judul besar, deskripsi, dan tombol di sini.
+             ====================================================== -->
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="intro" id="homeIntroLabel">Creative & Design Production</p>
+
+            <h1 id="homeHeadline">
+              Design That<br>
+              Solves, Not Just<br>
+              Looks.
+            </h1>
+
+            <p class="lede" id="homeIntroText">
+              I combine strategy, creativity, and design to build visuals that
+              connect brands with people.
+            </p>
+
+            <a class="outline-button" href="./portfolio.html">
+              VIEW MY WORK
+              <span class="arrow">→</span>
+            </a>
+
+            <div class="award achievement-carousel" id="achievementCarousel">
+              <div
+                class="achievement-items"
+                id="achievementItems"
+                aria-live="polite"
+              >
+                <article class="achievement-item active">
+                  <b>1st Place - National Film Competition</b>
+                  <span>Indosat Digitalent - "Jelajah"</span>
+                </article>
+
+                <article class="achievement-item">
+                  <b>2nd Place - National Film Competition</b>
+                  <span>SEAMEO BIOTROP - "Lerak"</span>
+                </article>
+
+                <article class="achievement-item">
+                  <b>Top 10 - Provincial Film Competition</b>
+                  <span>Short film - "Tanpa Batas"</span>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDER GAMBAR PROJECT HOME
+               Tambah atau ubah setiap <figure class="hero-slide"> di sini. -->
+          <div
+            class="hero-art"
+            role="img"
+            aria-label="Dark premium packaging concept"
+          >
+            <figure class="hero-slide active" data-slide="0">
+              <img
+                src="./assets/saintmoss/template.png"
+                alt="SAINT MOSS branding project"
+              >
+              <figcaption>
+                <span>01 / BRANDING</span>
+                <b>SAINT MOSS</b>
+              </figcaption>
+            </figure>
+
+            <figure class="hero-slide" data-slide="1" aria-hidden="true">
+              <img
+                src="./assets/elena/DI/1.jpg"
+                alt="ELENA SMITH digital imaging"
+              >
+              <figcaption>
+                <span>02 / DIGITAL IMAGING</span>
+                <b>ELENA SMITH</b>
+              </figcaption>
+            </figure>
+
+            <figure class="hero-slide" data-slide="2" aria-hidden="true">
+              <img
+                src="./assets/nbs/sosmed/sosmed1.jpg"
+                alt="NBS SKINCARE social media"
+              >
+              <figcaption>
+                <span>03 / SOCIAL MEDIA</span>
+                <b>NBS SKINCARE</b>
+              </figcaption>
+            </figure>
+
+            <figure class="hero-slide" data-slide="3" aria-hidden="true">
+              <img
+                src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1600&q=90"
+                alt="ORA Graphics editorial project"
+              >
+              <figcaption>
+                <span>04 / EDITORIAL</span>
+                <b>ORA GRAPHICS</b>
+              </figcaption>
+            </figure>
+
+            <figure class="hero-slide" data-slide="4" aria-hidden="true">
+              <img
+                src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=90"
+                alt="DND Studio film project"
+              >
+              <figcaption>
+                <span>05 / MOVING IMAGE</span>
+                <b>DND STUDIO</b>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- ======================================================
+             TOMBOL NAMA BRAND DI BAWAH SLIDER
+             data-slide harus sesuai urutan hero-slide, dimulai dari 0.
+             ====================================================== -->
+        <section class="brand-strip" aria-label="Selected clients">
+          <p>
+            Worked with<br>
+            impact-driven brands
+          </p>
+
+          <button class="brand-trigger active" data-slide="0" aria-pressed="true">
+            SAINT<br>
+            MOSS
+          </button>
+
+          <button class="brand-trigger" data-slide="1" aria-pressed="false">
+            ELENA<br>
+            SMITH
+          </button>
+
+          <button class="brand-trigger" data-slide="2" aria-pressed="false">
+            NBS<br>
+            SKINCARE
+          </button>
+
+          <button class="brand-trigger" data-slide="3" aria-pressed="false">
+            ORA<br>
+            <small>graphics</small>
+          </button>
+
+          <button class="brand-trigger" data-slide="4" aria-pressed="false">
+            DND<br>
+            <small>Studio</small>
+          </button>
+        </section>
+
+        <!-- ======================================================
+             AJAKAN MELIHAT PORTFOLIO
+             ====================================================== -->
+        <section class="home-next">
+          <div>
+            <p class="eyebrow">SELECTED PRACTICE</p>
+
+            <h2 id="practiceTitle">
+              Identity, packaging,<br>
+              digital & digital image.
+            </h2>
+          </div>
+
+          <p id="practiceText">
+            Every project starts with a problem worth solving. Explore the work,
+            the thinking behind it, and the outcomes created for each brand.
+          </p>
+
+          <a class="outline-button" href="./portfolio.html">
+            EXPLORE PROJECTS
+            <span class="arrow">→</span>
+          </a>
+        </section>
+      </main>
+
+      <!-- FOOTER
+           Isi footer dibuat oleh src/common.js. -->
+      <div id="site-footer"></div>
+    </div>
+
+    <!-- JAVASCRIPT
+         common.js = header/menu/footer, index.js = seluruh slider Home. -->
+    <script type="module" src="./src/common.js"></script>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>

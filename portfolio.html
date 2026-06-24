@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ========================================================
+         PENGATURAN HALAMAN PORTFOLIO
+         Ubah judul tab browser dan deskripsi Google di bagian ini.
+         ======================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Selected design work by Sultan Malik."
+    >
+    <title>Sultan Malik - Portfolio</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+
+  <body data-page="portfolio">
+    <div class="site-shell">
+      <!-- HEADER DAN MENU: dibuat oleh src/common.js. -->
+      <div id="site-header"></div>
+
+      <main class="portfolio-page">
+        <!-- ======================================================
+             AREA PORTFOLIO INTERAKTIF
+             Kategori dan project dibuat oleh src/portfolio.js.
+             Edit data project di bagian atas file tersebut.
+             ====================================================== -->
+        <section class="portfolio-explorer" aria-live="polite">
+          <div id="portfolioView"></div>
+        </section>
+      </main>
+
+      <!-- FOOTER: dibuat oleh src/common.js. -->
+      <div id="site-footer"></div>
+    </div>
+
+    <!-- JAVASCRIPT PORTFOLIO -->
+    <script type="module" src="./src/common.js"></script>
+    <script type="module" src="./src/portfolio.js"></script>
+  </body>
+</html>
