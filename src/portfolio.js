@@ -19,7 +19,7 @@ const categories = [
   },
   {
     id: "video",
-    title: "Video",
+    title: "Photo & Video",
     number: "03",
     description: "Short films, branded stories, moving images, and visual direction.",
     cover: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=88"
@@ -40,103 +40,366 @@ const projects = [
     title: "Saint Moss Perfume",
     detail: "Logo & Branding",
     year: "2026",
-    cover: "./assets/saintmoss/template.png",
+    cover: "./assets/saintmoss/template-web.jpg",
     gallery: [
-      "./assets/saintmoss/package.png",
-      "./assets/saintmoss/paperbox.png",
-      "./assets/saintmoss/botoldus.png",
-      "./assets/saintmoss/hangtag.png",
-      "./assets/saintmoss/botol.png",
-      "./assets/saintmoss/box.png",
-      "./assets/saintmoss/paperbag.png"
+      "./assets/saintmoss/package-web.jpg",
+      "./assets/saintmoss/paperbox-web.jpg",
+      "./assets/saintmoss/botoldus-web.jpg",
+      "./assets/saintmoss/hangtag-web.jpg",
+      "./assets/saintmoss/botol-web.jpg",
+      "./assets/saintmoss/box-web.jpg",
+      "./assets/saintmoss/paperbag-web.jpg"
     ],
     description: "A collection of AI-assisted product visual explorations focused on art direction, material studies, lighting, and campaign-ready compositions."
   },
 // DATA DESIGN PROJECTS
   {
-    id: "kopi-tujuh",
-    category: "design",
-    title: "Kopi Tujuh",
-    detail: "Branding & Packaging",
+    id: "1688",
+    category: "video",
+    title: "1688",
+    detail: "Product & Packaging Design",
     year: "2025",
-    cover: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88",
+    cover: "./assets/1688/sosissapi-web.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=88"
+      "./assets/1688/sosissapi-web.jpg",
+      "./assets/1688/sosisayam-web.jpg",
+      "./assets/1688/sosbak-web.jpg",
+      "./assets/1688/kornetkotak-web.jpg",
+      "./assets/1688/koin-web.jpg",
+      "./assets/1688/burger-web.jpg",
+      "./assets/1688/rounded.jpg",
+      "./assets/1688/saikoro.jpg",
+      "./assets/1688/slice1.jpg",
+      "./assets/1688/slice2.jpg",
+      "./assets/1688/slice3.jpg",
+      "./assets/1688/slice4.jpg"
     ],
-    description: "A complete identity and packaging direction for a contemporary Indonesian coffee brand, balancing an authentic local character with a refined, modern visual system."
+    description: "A portfolio selection for 1688 featuring product visuals, packaging mockups, and food brand presentation assets."
   },
   {
-    id: "duanyam",
+    id: "benefit",
     category: "design",
-    title: "DUANYAM",
-    detail: "Packaging Design",
+    title: "Benefit",
+    detail: "Brand & Campaign Design",
     year: "2025",
-    cover: "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88",
+    cover: "./assets/benefit/2.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88"
+      "./assets/benefit/des2-web.jpg",
+      "./assets/benefit/1-web.jpg",
+      "./assets/benefit/des1.jpg",
+      "./assets/benefit/2.jpg"
     ],
-    description: "A packaging study built around natural materials, warm color, and thoughtful details that communicate craft, care, and cultural value."
+    description: "A compact brand and campaign visual set for Benefit, focused on clean presentation and polished product-driven layouts."
   },
   {
-    id: "timeless-heritage",
+    id: "bravo",
     category: "design",
-    title: "Timeless Heritage",
-    detail: "Editorial Design",
-    year: "2024",
-    cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88",
+    title: "Bravo",
+    detail: "Brand Identity & Visual Design",
+    year: "2025",
+    cover: "./assets/bravo/bravo1a-web.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88"
+      "./assets/bravo/bravo1a-web.jpg",
+      "./assets/bravo/bravo1.jpg",
+      "./assets/bravo/bravo2.jpg",
+      "./assets/bravo/bravo2a-web.jpg",
+      "./assets/bravo/bravo3.jpg",
+      "./assets/bravo/bravo4.jpg",
+      "./assets/bravo/bravo5.jpg",
+      "./assets/bravo/bravo5a.jpg",
+      "./assets/bravo/bravo6.jpg",
+      "./assets/bravo/bravo6a-web.jpg",
+      "./assets/bravo/logo/1.jpg",
+      "./assets/bravo/logo/10.jpg",
+      "./assets/bravo/logo/11.jpg",
+      "./assets/bravo/logo/12.jpg",
+      "./assets/bravo/logo/13.jpg",
+      "./assets/bravo/logo/14.jpg",
+      "./assets/bravo/logo/15.jpg",
+      "./assets/bravo/logo/2.jpg",
+      "./assets/bravo/logo/3.jpg",
+      "./assets/bravo/logo/4.jpg",
+      "./assets/bravo/logo/5.jpg",
+      "./assets/bravo/logo/6.jpg",
+      "./assets/bravo/logo/7.jpg",
+      "./assets/bravo/logo/8.jpg",
+      "./assets/bravo/logo/9.jpg"
     ],
-    description: "An editorial system that brings heritage stories into a contemporary reading experience through restrained typography, photography, and pacing."
+    description: "A complete Bravo visual selection covering brand assets, logo explorations, and product-facing design materials."
   },
   {
-    id: "tenun-nusantara",
+    id: "elena-di",
     category: "design",
-    title: "Tenun Nusantara Website",
-    detail: "UI/UX Design",
+    title: "Elena DI",
+    detail: "Digital Imaging",
     year: "2025",
-    cover: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88",
+    cover: "./assets/elena/DI/1-web.jpg",
+    coverPosition: "center 70%",
     gallery: [
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88"
+      "./assets/elena/DI/1-web.jpg",
+      "./assets/elena/DI/2-web.jpg",
+      "./assets/elena/DI/3-web.jpg",
+      "./assets/elena/DI/4-web.jpg",
+      "./assets/elena/DI/5-web.jpg",
+      "./assets/elena/DI/6-web.jpg",
+      "./assets/elena/DI/7-web.jpg",
+      "./assets/elena/DI/8-web.jpg",
+      "./assets/elena/DI/9-web.jpg"
     ],
-    description: "A digital experience designed to introduce Indonesian weaving traditions through an immersive, elegant, and highly visual website."
+    description: "A dedicated Elena digital imaging gallery focused on polished product compositions and campaign visuals."
   },
   {
-    id: "kopi-tujuh-social",
+    id: "elena-lavender",
     category: "design",
-    title: "Kopi Tujuh Social Media",
-    detail: "Digital Design",
+    title: "Elena Lavender",
+    detail: "SKU Product Visuals",
     year: "2025",
-    cover: "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
+    cover: "./assets/elena/SKU/lavender/1-web.jpg",
     gallery: [
-      "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1400&q=88"
+      "./assets/elena/SKU/lavender/1-web.jpg",
+      "./assets/elena/SKU/lavender/2-web.jpg",
+      "./assets/elena/SKU/lavender/3-web.jpg",
+      "./assets/elena/SKU/lavender/4.png"
     ],
-    description: "A flexible social media system that extends the Kopi Tujuh identity into campaign content, product stories, and everyday brand communication."
+    description: "Elena Lavender SKU visuals grouped separately for clearer product variant presentation."
+  },
+  {
+    id: "elena-red",
+    category: "design",
+    title: "Elena Red",
+    detail: "SKU Product Visuals",
+    year: "2025",
+    cover: "./assets/elena/SKU/red/1-web.jpg",
+    gallery: [
+      "./assets/elena/SKU/red/1-web.jpg",
+      "./assets/elena/SKU/red/2-web.jpg",
+      "./assets/elena/SKU/red/3-web.jpg",
+      "./assets/elena/SKU/red/4-web.jpg"
+    ],
+    description: "Elena Red SKU visuals grouped separately for clearer product variant presentation."
+  },
+  {
+    id: "elena-vetiver",
+    category: "design",
+    title: "Elena Vetiver",
+    detail: "SKU Product Visuals",
+    year: "2025",
+    cover: "./assets/elena/SKU/vetiver/1.jpg",
+    gallery: [
+      "./assets/elena/SKU/vetiver/2-web.jpg",
+      "./assets/elena/SKU/vetiver/1.jpg",
+      "./assets/elena/SKU/vetiver/3-web.jpg",
+      "./assets/elena/SKU/vetiver/4.png"
+    ],
+    description: "Elena Vetiver SKU visuals grouped separately for clearer product variant presentation."
+  },
+  {
+    id: "mbahman",
+    category: "design",
+    title: "Mbahman",
+    detail: "Automotive Visual Design",
+    year: "2025",
+    cover: "./assets/mbahman/mobil1.jpg",
+    gallery: [
+      "./assets/mbahman/mobil1.jpg",
+      "./assets/mbahman/mobil1a.jpg",
+      "./assets/mbahman/mobil2.jpg",
+      "./assets/mbahman/mobil2a.jpg"
+    ],
+    description: "A concise automotive visual set for Mbahman with clean presentation assets and vehicle-focused layouts."
+  },
+  {
+    id: "mockup-1688",
+    category: "design",
+    title: "1688 Mockup",
+    detail: "Packaging Mockup",
+    year: "2026",
+    cover: "./assets/mockup/1688/NAGET MODERATE 500gr-web.jpg",
+    gallery: [
+      "./assets/mockup/1688/SS SAPI 375-web.jpg",
+      "./assets/mockup/1688/BURGER 250-web.jpg",
+      "./assets/mockup/1688/CHICKEN ROUNDED-web.jpg",
+      "./assets/mockup/1688/KORNET 450-web.jpg",
+      "./assets/mockup/1688/KORNET KOTAK 450-web.jpg",
+      "./assets/mockup/1688/NAGET MODERATE 500gr BACK-web.jpg",
+      "./assets/mockup/1688/NAGET MODERATE 500gr-web.jpg",
+      "./assets/mockup/1688/NAGET STICK 500gr BACK-web.jpg",
+      "./assets/mockup/1688/NAGET STICK 500gr-web.jpg",
+      "./assets/mockup/1688/ROUNDED-web.jpg",
+      "./assets/mockup/1688/SAIKORO-web.jpg",
+      "./assets/mockup/1688/SOSBAK 500 7-web.jpg",
+      "./assets/mockup/1688/SS AYAM 375-web.jpg"
+    ],
+    description: "A dedicated 1688 packaging mockup collection showing product variants, back panels, and presentation-ready pack visuals."
+  },
+  {
+    id: "naget",
+    category: "video",
+    title: "Naget",
+    detail: "Product Visual Design",
+    year: "2025",
+    cover: "./assets/naget/naget1-web.jpg",
+    gallery: [
+      "./assets/naget/naget1-web.jpg",
+      "./assets/naget/naget2-web.jpg",
+      "./assets/naget/naget3-web.jpg",
+      "./assets/naget/naget4-web.jpg",
+      "./assets/naget/naget5-web.jpg",
+      "./assets/naget/naget6-web.jpg"
+    ],
+    description: "A Naget product visual series built around food presentation, packaging clarity, and consistent brand-ready imagery."
+  },
+  {
+    id: "nbs-aging",
+    category: "design",
+    title: "NBS Aging",
+    detail: "Beauty Product Campaign",
+    year: "2025",
+    cover: "./assets/nbs/aging/aging1-web.jpg",
+    gallery: [
+      "./assets/nbs/aging/aging1-web.jpg",
+      "./assets/nbs/aging/aging2-web.jpg",
+      "./assets/nbs/aging/aging3-web.jpg"
+    ],
+    description: "Anti-aging product visuals and campaign-ready beauty layouts from the NBS Aging set."
+  },
+  {
+    id: "nbs-campain",
+    category: "design",
+    title: "NBS Campaign",
+    detail: "Beauty Campaign Design",
+    year: "2025",
+    cover: "./assets/nbs/campain/campain4-web.jpg",
+    gallery: [
+      "./assets/nbs/campain/campain4-web.jpg",
+      "./assets/nbs/campain/campain1.jpg",
+      "./assets/nbs/campain/campain2.jpg",
+      "./assets/nbs/campain/campain2a.jpg",
+      "./assets/nbs/campain/campain2b.jpg",
+      "./assets/nbs/campain/campain2c.jpg",
+      "./assets/nbs/campain/campain3.jpg"
+    ],
+    description: "Campaign visual explorations for NBS, separated into its own focused project gallery."
+  },
+  {
+    id: "nbs-face",
+    category: "ai-production",
+    title: "NBS Face",
+    detail: "Face Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/face/face4.jpg",
+    gallery: [
+      "./assets/nbs/face/face2-web.jpg",
+      "./assets/nbs/face/face1.jpg",
+      "./assets/nbs/face/face3-web.jpg",
+      "./assets/nbs/face/face4.jpg",
+      "./assets/nbs/face/face5.jpg",
+      "./assets/nbs/face/face6.jpg",
+      "./assets/nbs/face/face7-web.jpg",
+      "./assets/nbs/face/face8.jpg"
+    ],
+    description: "Face product visuals for NBS with dedicated beauty imagery and product presentation."
+  },
+  {
+    id: "nbs-lash",
+    category: "ai-production",
+    title: "NBS Lash",
+    detail: "Lash Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/lash/produk2-web.jpg",
+    gallery: [
+      "./assets/nbs/lash/produk1-web.jpg",
+      "./assets/nbs/lash/produk1a-web.jpg",
+      "./assets/nbs/lash/produk1b.jpg",
+      "./assets/nbs/lash/produk2-web.jpg",
+      "./assets/nbs/lash/produk2a.jpg",
+      "./assets/nbs/lash/produk2a1.jpg",
+      "./assets/nbs/lash/produk2b.jpg"
+    ],
+    description: "Lash product visuals for NBS, focused on close-up beauty product presentation and variants."
+  },
+  {
+    id: "nbs-lipstik",
+    category: "design",
+    title: "NBS Lipstik",
+    detail: "Lip Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/lipstik/produk1.jpg",
+    gallery: [
+      "./assets/nbs/lipstik/produk1.jpg",
+      "./assets/nbs/lipstik/produk1a.jpg",
+      "./assets/nbs/lipstik/produk1b.jpg"
+    ],
+    description: "Lipstik product visuals for NBS with a dedicated gallery for lip product assets."
+  },
+  {
+    id: "nbs-masker",
+    category: "ai-production",
+    title: "NBS Masker",
+    detail: "Masker Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/masker/masker3-web.jpg",
+    gallery: [
+      "./assets/nbs/masker/masker2-web.jpg",
+      "./assets/nbs/masker/masker1.jpg",
+      "./assets/nbs/masker/masker3-web.jpg",
+      "./assets/nbs/masker/masker4.jpg"
+    ],
+    description: "Masker product visuals for NBS, grouped separately for clearer portfolio browsing."
+  },
+  {
+    id: "nbs-sosmed",
+    category: "design",
+    title: "NBS Social Media",
+    detail: "Social Media Design",
+    year: "2025",
+    cover: "./assets/nbs/sosmed/sosmed1-web.jpg",
+    coverPosition: "center 70%",
+    gallery: [
+      "./assets/nbs/sosmed/sosmed1-web.jpg",
+      "./assets/nbs/sosmed/sosmed2-web.jpg",
+      "./assets/nbs/sosmed/sosmed2.jpg",
+      "./assets/nbs/sosmed/sosmed3.jpg",
+      "./assets/nbs/sosmed/sosmed4-web.jpg",
+      "./assets/nbs/sosmed/sosmed5.jpg",
+      "./assets/nbs/sosmed/sosmed6.jpg",
+      "./assets/nbs/sosmed/sosmed7.jpg",
+      "./assets/nbs/sosmed/sosmed8-web.jpg",
+      "./assets/nbs/sosmed/sosmed9-web.jpg"
+    ],
+    description: "NBS social media design assets grouped into a dedicated digital content project."
+  },
+  {
+    id: "piket",
+    category: "video",
+    title: "Piket",
+    detail: "Food Product Visual Design",
+    year: "2025",
+    cover: "./assets/piket/coktail1-web.jpg",
+    gallery: [
+      "./assets/piket/coktail1-web.jpg",
+      "./assets/piket/coktail2-web.jpg",
+      "./assets/piket/frankfurter.jpg",
+      "./assets/piket/smoke1-web.jpg",
+      "./assets/piket/smoke2-web.jpg"
+    ],
+    description: "A Piket food product visual set featuring cocktail, smoke, and frankfurter imagery for brand and menu presentation."
+  },
+  {
+    id: "saturdayscent",
+    category: "design",
+    title: "Saturday Scent",
+    detail: "Perfume Product Visual Design",
+    year: "2025",
+    cover: "./assets/saturdayscent/mock1-web.jpg",
+    gallery: [
+      "./assets/saturdayscent/mock1-web.jpg",
+      "./assets/saturdayscent/mock2.jpg",
+      "./assets/saturdayscent/mock3.jpg",
+      "./assets/saturdayscent/mock4-web.jpg",
+      "./assets/saturdayscent/mock5.jpg"
+    ],
+    description: "A Saturday Scent product visual set focused on perfume mockups, mood, material, and refined presentation."
   },
 // DATA VIDEO PROJECTS
   {
@@ -192,6 +455,8 @@ const projects = [
 ];
 
 const portfolioView = document.querySelector("#portfolioView");
+const categoryScrollPositions = new Map();
+let activeRoute = null;
 
 // ============================================================
 // ROUTING PORTFOLIO
@@ -245,7 +510,7 @@ function renderCategories() {
             data-category="${category.id}"
             aria-label="Open ${category.title} projects"
           >
-            <img src="${category.cover}" alt="">
+            <img src="${category.cover}" alt="" loading="lazy" decoding="async">
             <span class="category-shade"></span>
 
             <span class="category-number">${category.number}</span>
@@ -259,6 +524,7 @@ function renderCategories() {
         `;
       }).join("")}
     </div>
+
   `;
 }
 
@@ -272,7 +538,7 @@ function renderCategory(categoryId) {
   );
 
   portfolioView.innerHTML = `
-    <div class="portfolio-toolbar">
+    <div class="portfolio-toolbar" hidden>
       <button class="portfolio-back" data-back="categories">
         <span>←</span> BACK TO CATEGORIES
       </button>
@@ -294,7 +560,7 @@ function renderCategory(categoryId) {
         >
           <button class="project-open" aria-label="Open ${project.title}">
             <span class="project-image">
-              <img src="${project.cover}" alt="">
+              <img src="${project.cover}" alt="" loading="lazy" decoding="async"${project.coverPosition ? ` style="--project-cover-position: ${project.coverPosition};"` : ""}>
               <span class="view-label">VIEW PROJECT ↗</span>
             </span>
 
@@ -310,6 +576,12 @@ function renderCategory(categoryId) {
         </article>
       `).join("")}
     </div>
+
+    <div class="detail-bottom-back">
+      <button class="portfolio-back" data-back="categories">
+        <span>←</span> BACK TO CATEGORIES
+      </button>
+    </div>
   `;
 }
 
@@ -323,7 +595,7 @@ function renderProject(projectId) {
   const gallery = Array.isArray(project.gallery) ? project.gallery : [];
 
   portfolioView.innerHTML = `
-    <div class="portfolio-toolbar detail-toolbar">
+    <div class="portfolio-toolbar detail-toolbar" hidden>
       <button class="portfolio-back" data-back="${category.id}">
         <span>←</span> BACK TO ${category.title.toUpperCase()}
       </button>
@@ -359,6 +631,8 @@ function renderProject(projectId) {
             <img
               src="https://i.ytimg.com/vi/${project.youtubeId}/maxresdefault.jpg"
               alt="${project.title} YouTube video preview"
+              loading="lazy"
+              decoding="async"
             >
             <span class="video-shade"></span>
 
@@ -369,11 +643,7 @@ function renderProject(projectId) {
             </span>
           </button>
         </section>
-      ` : `
-        <figure class="project-cover-wide">
-          <img src="${project.cover}" alt="${project.title} project cover">
-        </figure>
-      `}
+      ` : ""}
 
       ${gallery.length ? `
         <div class="masonry-gallery">
@@ -383,6 +653,7 @@ function renderProject(projectId) {
                 src="${image}"
                 alt="${project.title} detail ${index + 1}"
                 loading="lazy"
+                decoding="async"
               >
             </figure>
           `).join("")}
@@ -417,6 +688,9 @@ function render() {
   window.requestAnimationFrame(() => {
     portfolioView.classList.add("view-enter");
   });
+
+  activeRoute = route;
+  return route;
 }
 
 // ============================================================
@@ -432,6 +706,22 @@ function navigate(route) {
   }
 
   window.location.hash = route;
+}
+
+function rememberCategoryScroll(categoryId) {
+  categoryScrollPositions.set(categoryId, window.scrollY);
+}
+
+function restoreCategoryScroll(categoryId) {
+  if (!categoryScrollPositions.has(categoryId)) {
+    alignPortfolioView();
+    return;
+  }
+
+  window.scrollTo({
+    top: categoryScrollPositions.get(categoryId),
+    behavior: "auto"
+  });
 }
 
 function alignPortfolioView(behavior = "smooth") {
@@ -487,6 +777,12 @@ portfolioView.addEventListener("click", (event) => {
   }
 
   if (projectCard) {
+    const project = getProject(projectCard.dataset.project);
+
+    if (project) {
+      rememberCategoryScroll(project.category);
+    }
+
     navigate(`project/${projectCard.dataset.project}`);
   }
 });
@@ -495,8 +791,17 @@ portfolioView.addEventListener("click", (event) => {
 // UPDATE TAMPILAN SAAT URL PORTFOLIO BERUBAH
 // ============================================================
 window.addEventListener("hashchange", () => {
-  render();
-  window.requestAnimationFrame(() => alignPortfolioView());
+  const previousRoute = activeRoute;
+  const route = render();
+
+  window.requestAnimationFrame(() => {
+    if (previousRoute?.type === "project" && route.type === "category") {
+      restoreCategoryScroll(route.id);
+      return;
+    }
+
+    alignPortfolioView();
+  });
 });
 
 // ============================================================

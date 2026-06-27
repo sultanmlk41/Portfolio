@@ -208,7 +208,7 @@ h1 {
    ============================================================ */
 .award {
   position: absolute;
-  bottom: 26px;
+  bottom: clamp(30px, 16vh, 170px);
   display: flex;
   align-items: center;
 }
@@ -296,7 +296,7 @@ h1 {
   transform: scale(1.025);
   transition:
     opacity 0.8s ease,
-    transform 5.5s ease;
+    transform 4s ease;
   pointer-events: none;
 }
 
@@ -322,7 +322,28 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--hero-image-focus, center center);
   filter: saturate(0.55) brightness(0.48) contrast(1.08);
+}
+
+.hero-slide[data-slide="0"] {
+  --hero-image-focus: center center;
+}
+
+.hero-slide[data-slide="1"] {
+  --hero-image-focus: center 70%;
+}
+
+.hero-slide[data-slide="2"] {
+  --hero-image-focus: center 70%;
+}
+
+.hero-slide[data-slide="3"] {
+  --hero-image-focus: center center;
+}
+
+.hero-slide[data-slide="4"] {
+  --hero-image-focus: center center;
 }
 
 .hero-slide figcaption {
@@ -623,6 +644,7 @@ h1 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--project-cover-position, center center);
   filter: saturate(0.65) brightness(0.7);
   transition: 0.45s;
 }
@@ -960,11 +982,16 @@ footer a {
   position: sticky;
   top: 86px;
   z-index: 25;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   background: rgba(7, 8, 8, 0.94);
   backdrop-filter: blur(14px);
+}
+
+.project-detail .portfolio-toolbar,
+.category-view-heading ~ .portfolio-toolbar {
+  display: none;
 }
 
 .portfolio-toolbar > span {
@@ -1238,32 +1265,22 @@ footer a {
    ============================================================ */
 .masonry-gallery {
   margin: 0 4.6vw;
-  columns: 3 280px;
-  column-gap: 22px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  align-items: start;
 }
 
 .masonry-item {
-  margin: 0 0 22px;
-  break-inside: avoid;
-  overflow: hidden;
-  background: #111;
-}
-
-.masonry-item:nth-child(3n + 1) img {
-  aspect-ratio: 4/5;
-}
-
-.masonry-item:nth-child(3n + 2) img {
-  aspect-ratio: 4/3;
-}
-
-.masonry-item:nth-child(3n) img {
-  aspect-ratio: 1/1;
+  margin: 0;
+  overflow: visible;
+  background: transparent;
 }
 
 .masonry-item img {
   width: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   filter: saturate(0.72) brightness(0.78);
   transition:
@@ -1368,7 +1385,7 @@ footer a {
 
 .section-heading {
   display: grid;
-  grid-template-columns: 0.35fr 1fr;
+  grid-template-columns: 0.35fr minmax(0, 1fr) 140px;
   gap: 50px;
   margin-bottom: 55px;
 }
@@ -1381,7 +1398,7 @@ footer a {
   min-height: 165px;
   padding: 30px 0;
   display: grid;
-  grid-template-columns: 0.35fr 1fr auto;
+  grid-template-columns: 0.35fr minmax(0, 1fr) 140px;
   gap: 50px;
   align-items: start;
   border-bottom: 1px solid #30302f;
@@ -1441,17 +1458,50 @@ footer a {
   font-size: clamp(66px, 8vw, 130px);
 }
 
-.contact-email {
+.contact-actions {
   margin-top: 45px;
-  width: fit-content;
-  font-size: 17px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #777;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
 }
 
-.contact-email span {
+.contact-icon-button {
+  min-height: 54px;
+  padding: 0 18px;
+  border: 1px solid #3a3a38;
+  color: #ddd;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.contact-icon-button:hover {
+  color: #fff;
+  border-color: #8b7357;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.contact-icon-button svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.contact-icon-button b {
   color: var(--gold);
-  margin-left: 30px;
+  font-size: 15px;
+  letter-spacing: -0.04em;
 }
 
 .contact-visual {
@@ -1539,48 +1589,6 @@ footer a {
   font-size: 11px;
   padding-bottom: 10px;
   border-bottom: 1px solid #292929;
-}
-
-/* ============================================================
-   ABOUT: DETAIL KONTAK PERSONAL
-   ============================================================ */
-.about-contact {
-  padding: 55px 4.6vw;
-  display: grid;
-  grid-template-columns: 0.35fr 1fr;
-  gap: 50px;
-  border-top: 1px solid var(--line);
-}
-
-.about-contact > div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px 50px;
-}
-
-.about-contact a,
-.about-contact span {
-  color: #bbb;
-  font-size: 12px;
-}
-
-.about-contact a {
-  border-bottom: 1px solid #555;
-  padding-bottom: 5px;
-}
-
-.direct-contact {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 30px;
-  margin-top: 22px;
-  color: #888;
-  font-size: 10px;
-  letter-spacing: 0.05em;
-}
-
-.direct-contact a {
-  color: #bbb;
 }
 
 /* ============================================================
@@ -1983,17 +1991,6 @@ footer a {
     gap: 45px;
   }
 
-  .about-contact {
-    padding: 45px 22px;
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-
-  .about-contact > div {
-    flex-direction: column;
-    gap: 15px;
-  }
-
   .contact-hero {
     min-height: 0;
     grid-template-columns: 1fr;
@@ -2008,8 +2005,13 @@ footer a {
     font-size: 62px;
   }
 
-  .contact-email {
-    font-size: 13px;
+  .contact-actions {
+    gap: 10px;
+  }
+
+  .contact-icon-button {
+    min-height: 50px;
+    font-size: 9px;
   }
 
   .contact-visual {
@@ -2112,11 +2114,8 @@ footer a {
 
   .masonry-gallery {
     margin: 0 14px;
-    columns: 1;
-  }
-
-  .masonry-item {
-    margin-bottom: 14px;
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .detail-bottom-back {
