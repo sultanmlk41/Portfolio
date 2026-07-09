@@ -474,54 +474,76 @@ const projects = [
   },
 // DATA VIDEO PROJECTS
   {
-    id: "batas-bisik",
+    id: "udjang",
     category: "video",
-    title: "Batas Bisik",
+    title: "UDJANG",
     detail: "Short Movie",
     year: "2024",
-    cover: "https://i.ytimg.com/vi/aqz-KE-bpKQ/maxresdefault.jpg",
-    youtubeId: "aqz-KE-bpKQ",
-    youtubeLabel: "YouTube Demo - Replace With Your Film",
-    gallery: [
-      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1000&q=88"
-    ],
-    description: "A dark, atmospheric short film shaped through controlled pacing, restrained visual storytelling, and intimate character-driven moments."
+    cover: "https://i.ytimg.com/vi/iYHeSQokbng/hqdefault.jpg",
+    youtubeId: "iYHeSQokbng",
+    youtubeLabel: "WATCH SHORT MOVIE ON YOUTUBE",
+    gallery: [],
+    description: "A short movie project presented as part of the portfolio's film and video direction selection."
   },
   {
-    id: "jelajah",
+    id: "lerak-seasia",
     category: "video",
-    title: "Jelajah",
+    title: "LERAK",
+    detail: "Seasia Documentary Film",
+    year: "2019",
+    cover: "https://i.ytimg.com/vi/YnfTSernH-s/hqdefault.jpg",
+    youtubeId: "YnfTSernH-s",
+    youtubeLabel: "WATCH DOCUMENTARY ON YOUTUBE",
+    gallery: [],
+    description: "A documentary film project for Seasia, focused on cultural and environmental storytelling."
+  },
+  {
+    id: "budak",
+    category: "video",
+    title: "BUDAK",
+    detail: "Film Pendek Pentas Seni Sekolah",
+    year: "2024",
+    cover: "https://i.ytimg.com/vi/60oXX2cEpT4/hqdefault.jpg",
+    youtubeId: "60oXX2cEpT4",
+    youtubeLabel: "WATCH SHORT FILM ON YOUTUBE",
+    gallery: [],
+    description: "Film pendek pertama yang tayang di acara pentas seni sekolah, built around horror storytelling and school event screening."
+  },
+  {
+    id: "ppatk-money-laundering",
+    category: "video",
+    title: "PPATK - Money Laundering",
+    detail: "Campaign Short Video",
+    year: "2024",
+    cover: "https://i.ytimg.com/vi/ZrAdhJj-Wm0/hqdefault.jpg",
+    youtubeId: "ZrAdhJj-Wm0",
+    youtubeLabel: "WATCH CAMPAIGN VIDEO ON YOUTUBE",
+    gallery: [],
+    description: "A campaign-style short video project about money laundering awareness, produced with concise visual storytelling."
+  },
+  {
+    id: "jelajah-im3",
+    category: "video",
+    title: "JELAJAH",
     detail: "Award-winning Short Film",
     year: "2019",
-    cover: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=88",
-    gallery: [
-      "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=88"
-    ],
-    description: "A national competition-winning short film developed through collaborative story building, scriptwriting, and scene-by-scene pre-production."
+    cover: "https://i.ytimg.com/vi/HfuVv8PLJM0/hqdefault.jpg",
+    youtubeId: "HfuVv8PLJM0",
+    youtubeLabel: "WATCH AWARD-WINNING FILM ON YOUTUBE",
+    gallery: [],
+    description: "A national competition-winning short film project created for IM3 Ooredoo Digital Talent."
   },
   {
-    id: "lerak",
+    id: "indosat-ekspresikan",
     category: "video",
-    title: "Lerak",
-    detail: "Biodiversity Short Film",
+    title: "INDOSAT - Ekspresikan",
+    detail: "Brand Campaign Video",
     year: "2019",
-    cover: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1400&q=88",
-    gallery: [
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=88",
-      "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1000&q=88",
-      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=88",
-      "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1000&q=88"
-    ],
-    description: "A second-place national competition film telling a biodiversity story through accessible narrative structure and purposeful visual direction."
+    cover: "https://i.ytimg.com/vi/cRhQtSufY2Q/hqdefault.jpg",
+    youtubeId: "cRhQtSufY2Q",
+    youtubeLabel: "WATCH BRAND VIDEO ON YOUTUBE",
+    gallery: [],
+    description: "A brand campaign video for Indosat's Ekspresikan theme, focused on youthful expression and digital talent storytelling."
   }
 ];
 
@@ -700,7 +722,7 @@ function renderProject(projectId) {
             aria-label="Play ${project.title} video"
           >
             <img
-              src="https://i.ytimg.com/vi/${project.youtubeId}/maxresdefault.jpg"
+              src="${project.cover || `https://i.ytimg.com/vi/${project.youtubeId}/hqdefault.jpg`}"
               alt="${project.title} YouTube video preview"
               loading="lazy"
               decoding="async"
