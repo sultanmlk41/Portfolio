@@ -55,7 +55,7 @@ const projects = [
 // DATA DESIGN PROJECTS
   {
     id: "1688",
-    category: "design",
+    category: "video",
     title: "1688 Packaging",
     detail: "Product & Packaging Design",
     year: "2025",
