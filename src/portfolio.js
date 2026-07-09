@@ -55,8 +55,8 @@ const projects = [
 // DATA DESIGN PROJECTS
   {
     id: "1688",
-    category: "video",
-    title: "1688",
+    category: "design",
+    title: "1688 Packaging",
     detail: "Product & Packaging Design",
     year: "2025",
     cover: "./assets/1688/sosissapi-web.jpg",
@@ -75,6 +75,77 @@ const projects = [
       "./assets/1688/slice4.jpg"
     ],
     description: "A portfolio selection for 1688 featuring product visuals, packaging mockups, and food brand presentation assets."
+  },
+  {
+    id: "1688-ai",
+    category: "ai-production",
+    title: "1688 AI Product Visuals",
+    detail: "AI Product Campaign Visuals",
+    year: "2026",
+    cover: "./assets/1688/ai/naget.png",
+    gallery: [
+      "./assets/1688/ai/naget.png",
+      "./assets/1688/ai/flynaget.png",
+      "./assets/1688/ai/sosissapi.png",
+      "./assets/1688/ai/sosisayam.png",
+      "./assets/1688/ai/sosisbakar.png",
+      "./assets/1688/ai/daging.png"
+    ],
+    description: "AI-assisted 1688 product visuals for frozen food campaign assets, product presentation, and brand-ready compositions."
+  },
+  {
+    id: "1688-blindvan",
+    category: "design",
+    title: "1688 Blind Van",
+    detail: "Vehicle Branding Design",
+    year: "2026",
+    cover: "./assets/1688/blindvan/preview.jpg",
+    gallery: [
+      "./assets/1688/blindvan/preview.jpg",
+      "./assets/1688/blindvan/mobil.png",
+      "./assets/1688/blindvan/belakang.jpg",
+      "./assets/1688/blindvan/kanan.jpg",
+      "./assets/1688/blindvan/kiri.jpg"
+    ],
+    description: "1688 vehicle branding design exploration for blind van application, including side, rear, and full mockup views."
+  },
+  {
+    id: "1688-design-assets",
+    category: "design",
+    title: "1688 Design Assets",
+    detail: "Marketing & Brand Collateral",
+    year: "2026",
+    cover: "./assets/1688/desain/katalog.jpg",
+    gallery: [
+      "./assets/1688/desain/katalog.jpg",
+      "./assets/1688/desain/brosur.jpg",
+      "./assets/1688/desain/pricelog.jpg",
+      "./assets/1688/desain/x-banner1.jpg",
+      "./assets/1688/desain/2x1.jpg",
+      "./assets/1688/desain/3x1.jpg",
+      "./assets/1688/desain/4x1.jpg",
+      "./assets/1688/desain/polofront.png",
+      "./assets/1688/desain/poloside.png",
+      "./assets/1688/desain/thermal.png"
+    ],
+    description: "A grouped 1688 collateral set covering catalog, brochure, price log, banner, apparel, and point-of-sale design assets."
+  },
+  {
+    id: "1688-freezer",
+    category: "design",
+    title: "1688 Freezer Branding",
+    detail: "Freezer Sticker & Mockup Design",
+    year: "2026",
+    cover: "./assets/1688/freezer/mockup1.jpg",
+    gallery: [
+      "./assets/1688/freezer/mockup1.jpg",
+      "./assets/1688/freezer/mockup2.jpg",
+      "./assets/1688/freezer/mockup3.jpg",
+      "./assets/1688/freezer/desain1.jpg",
+      "./assets/1688/freezer/desain2.jpg",
+      "./assets/1688/freezer/desain3.jpg"
+    ],
+    description: "1688 freezer sticker design and mockup presentation set for retail freezer branding applications."
   },
   {
     id: "benefit",
