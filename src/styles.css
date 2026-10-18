@@ -884,16 +884,8 @@ footer a {
 }
 
 #portfolioView {
-  opacity: 0;
-  transform: translateY(8px);
-  transition:
-    opacity 0.28s ease,
-    transform 0.28s ease;
-}
-
-#portfolioView.view-enter {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }
 
 .explorer-heading {
