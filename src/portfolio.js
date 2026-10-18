@@ -270,7 +270,7 @@ const projects = [
   ],
 
   description: "A collection of AI-assisted video shots for 1688 frozen food products."
-  }
+  },
 
   // AI IMAGE
   {
