@@ -760,6 +760,44 @@ footer a {
 .home-page .hero {
   min-height: calc(100vh - 86px);
 }
+/* Video layouts */
+.local-video-gallery {
+  margin: 48px 0;
+}
+
+.local-video-gallery h3 {
+  margin-bottom: 24px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.local-video-item {
+  min-width: 0;
+}
+
+.local-video-item video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #111;
+  border-radius: 12px;
+}
+
+.local-video-item h4 {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 760px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ============================================================
    HOME: BAGIAN AJAKAN MELIHAT PROJECT

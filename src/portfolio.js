@@ -7,7 +7,7 @@ const categories = [
     id: "ai-production",
     title: "AI Production",
     number: "01",
-    description: "AI-assisted concept development, campaign imagery, and visual experimentation.",
+    description: "AI-assisted concept development, campaign imagery, and video production.",
     cover: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=88"
   },
   {
@@ -19,9 +19,9 @@ const categories = [
   },
   {
     id: "video",
-    title: "Photo & Video",
+    title: "Film",
     number: "03",
-    description: "Short films, branded stories, moving images, and visual direction.",
+    description: "Short films & movie making.",
     cover: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=88"
   }
 ];
@@ -34,6 +34,245 @@ const categories = [
 // ============================================================
 const projects = [
 // DATA AI PROJECTS
+// AI VIDEO
+{
+  id: "nagetayam1688",
+  category: "ai-production",
+  title: "Naget Ayam 1688",
+  detail: "AI Product Video",
+  year: "2026",
+
+  cover: "./assets/nagetayam1688/SHOT 9.png",
+
+  gallery: [],
+
+  videos: [
+    {
+      title: "Final Video Naget Ayam 1688",
+      src: "./assets/nagetayam1688/1688 NAGET AYAM.mp4"
+    },
+    {
+      title: "Shot Karakter Anak 1",
+      src: "./assets/nagetayam1688/ANAK CEWE.mp4"
+    },
+    {
+      title: "Shot Karakter Anak 2",
+      src: "./assets/nagetayam1688/SHOT ANAK.mp4"
+    },
+    {
+      title: "Shot Goreng Product",
+      src: "./assets/nagetayam1688/masak.mp4"
+    },
+    {
+      title: "Shot Hero Product 1",
+      src: "./assets/nagetayam1688/NAGET JADI.mp4"
+    },
+    {
+      title: "Shot Hero Product 2",
+      src: "./assets/nagetayam1688/REFSHOT.mp4"
+    },
+    {
+      title: "Shot Hero Product 3",
+      src: "./assets/nagetayam1688/SHOT 1.mp4"
+    },
+    {
+      title: "Shot Hero Product 4",
+      src: "./assets/nagetayam1688/SHOT 2.mp4"
+    },
+    {
+      title: "Shot Hero Product 4",
+      src: "./assets/nagetayam1688/SHOT FINAL.mp4"
+    },
+  ],
+
+  description: "A collection of AI-assisted video shots for 1688 frozen food products."
+  },
+  {
+  id: "sosisayam1688",
+  category: "ai-production",
+  title: "Sosis Ayam 1688",
+  detail: "AI Product Video",
+  year: "2026",
+
+  cover: "./assets/sosisayam1688/cover.jpg",
+
+  gallery: [],
+
+  videos: [
+    {
+      title: "Final Video Sosis Ayam 1688",
+      src: "./assets/sosisayam1688/SOSISAYAM.mp4"
+    },
+    {
+      title: "Shot Karakter Anak",
+      src: "./assets/sosisayam1688/karakter.mp4"
+    },
+    {
+      title: "Shot Goreng Product 1",
+      src: "./assets/sosisayam1688/goreng 2.mp4"
+    },
+    {
+      title: "Shot Goreng Product 2",
+      src: "./assets/sosisayam1688/goreng.mp4"
+    },
+    {
+      title: "Shot Hero Product",
+      src: "./assets/sosisayam1688/hero.mp4"
+    },
+    {
+      title: "Shot Hero Product 2",
+      src: "./assets/sosisayam1688/1.mp4"
+    },
+    {
+      title: "Shot Hero Product 3",
+      src: "./assets/sosisayam1688/final.mp4"
+    },
+        {
+      title: "Shot Hero Product 4",
+      src: "./assets/sosisayam1688/timelapse.mp4"
+    },
+  ],
+
+  description: "A collection of AI-assisted video shots for 1688 frozen food products."
+  },
+  {
+  id: "daging1688",
+  category: "ai-production",
+  title: "Kemasan Baru 1688",
+  detail: "AI Product Video",
+  year: "2026",
+
+  cover: "./assets/daging1688/cover.png",
+
+  gallery: [],
+
+  videos: [
+    {
+      title: "Final Video Kemasan Baru 1688",
+      src: "./assets/daging1688/DAGING.mp4"
+    },
+    {
+      title: "Shot Produk",
+      src: "./assets/daging1688/product.mp4"
+    },
+    {
+      title: "Shot Hero Product 1",
+      src: "./assets/daging1688/1.mp4"
+    },
+    {
+      title: "Shot Hero Product 2",
+      src: "./assets/daging1688/2.mp4"
+    },
+    {
+      title: "Shot Hero Product 3",
+      src: "./assets/daging1688/3.mp4"
+    },
+    {
+      title: "Shot Hero Product 4",
+      src: "./assets/daging1688/4.mp4"
+    },
+    {
+      title: "Shot Hero Product 5",
+      src: "./assets/daging1688/5.mp4"
+    },
+        {
+      title: "Shot Hero Product 6",
+      src: "./assets/daging1688/6.mp4"
+    },
+    {
+      title: "Shot Hero Product 7",
+      src: "./assets/daging1688/7.mp4"
+    },
+    {
+      title: "Shot Hero Product 8",
+      src: "./assets/daging1688/8.mp4"
+    },
+  {
+      title: "Shot Hero Product 9",
+      src: "./assets/daging1688/9.mp4"
+    },
+  ],
+
+  description: "A collection of AI-assisted video shots for 1688 frozen food products."
+  },
+  {
+  id: "sosbak1688",
+  category: "ai-production",
+  title: "Sosis Bakar 1688",
+  detail: "AI Product Video",
+  year: "2026",
+
+  cover: "./assets/sosbak1688/cover.png",
+
+  gallery: [],
+
+  videos: [
+    {
+      title: "Final Video Sosis Bakar 1688",
+      src: "./assets/sosbak1688/sosbak.mp4"
+    },
+    {
+      title: "Shot Produk",
+      src: "./assets/sosbak1688/PRODUCT SHOT.mp4"
+    },
+    {
+      title: "Shot Hero Product 1",
+      src: "./assets/sosbak1688/SHOT 1.mp4"
+    },
+    {
+      title: "Shot Hero Product 2",
+      src: "./assets/sosbak1688/SHOT 2.mp4"
+    },
+    {
+      title: "Shot Hero Product 3",
+      src: "./assets/sosbak1688/SHOT 3.mp4"
+    },
+  ],
+
+  description: "A collection of AI-assisted video shots for 1688 frozen food products."
+  },
+  {
+  id: "slice1688",
+  category: "ai-production",
+  title: "Daging Slice 1688",
+  detail: "AI Product Video",
+  year: "2026",
+
+  cover: "./assets/slice1688/cover.png",
+
+  gallery: [],
+
+  videos: [
+    {
+      title: "Final Video Daging Slice 1688",
+      src: "./assets/slice1688/final.mp4"
+    },
+    {
+      title: "Shot Hero Product 1",
+      src: "./assets/slice1688/1.mp4"
+    },
+    {
+      title: "Shot Hero Product 2",
+      src: "./assets/slice1688/2.mp4"
+    },
+    {
+      title: "Shot Hero Product 3",
+      src: "./assets/slice1688/3.mp4"
+    },
+    {
+      title: "Shot Hero Product 4",
+      src: "./assets/slice1688/4.mp4"
+    },
+    {
+      title: "Shot Hero Product 5",
+      src: "./assets/slice1688/5.mp4"
+    },
+  ],
+
+  description: "A collection of AI-assisted video shots for 1688 frozen food products."
+  }
+
+  // AI IMAGE
   {
     id: "saintmoss",
     category: "ai-production",
@@ -93,6 +332,60 @@ const projects = [
     ],
     description: "AI-assisted 1688 product visuals for frozen food campaign assets, product presentation, and brand-ready compositions."
   },
+  {
+    id: "nbs-face",
+    category: "ai-production",
+    title: "NBS Face",
+    detail: "Face Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/face/face4.jpg",
+    gallery: [
+      "./assets/nbs/face/face2-web.jpg",
+      "./assets/nbs/face/face1.jpg",
+      "./assets/nbs/face/face3-web.jpg",
+      "./assets/nbs/face/face4.jpg",
+      "./assets/nbs/face/face5.jpg",
+      "./assets/nbs/face/face6.jpg",
+      "./assets/nbs/face/face7-web.jpg",
+      "./assets/nbs/face/face8.jpg"
+    ],
+    description: "Face product visuals for NBS with dedicated beauty imagery and product presentation."
+  },
+  {
+    id: "nbs-lash",
+    category: "ai-production",
+    title: "NBS Lash",
+    detail: "Lash Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/lash/produk2-web.jpg",
+    gallery: [
+      "./assets/nbs/lash/produk1-web.jpg",
+      "./assets/nbs/lash/produk1a-web.jpg",
+      "./assets/nbs/lash/produk1b.jpg",
+      "./assets/nbs/lash/produk2-web.jpg",
+      "./assets/nbs/lash/produk2a.jpg",
+      "./assets/nbs/lash/produk2a1.jpg",
+      "./assets/nbs/lash/produk2b.jpg"
+    ],
+    description: "Lash product visuals for NBS, focused on close-up beauty product presentation and variants."
+  },
+  {
+    id: "nbs-masker",
+    category: "ai-production",
+    title: "NBS Masker",
+    detail: "Masker Product Visual Design",
+    year: "2025",
+    cover: "./assets/nbs/masker/masker3-web.jpg",
+    gallery: [
+      "./assets/nbs/masker/masker2-web.jpg",
+      "./assets/nbs/masker/masker1.jpg",
+      "./assets/nbs/masker/masker3-web.jpg",
+      "./assets/nbs/masker/masker4.jpg"
+    ],
+    description: "Masker product visuals for NBS, grouped separately for clearer portfolio browsing."
+  },
+
+  // DATA DESIGN PROJECTS
   {
     id: "1688-blindvan",
     category: "design",
@@ -304,23 +597,6 @@ const projects = [
     description: "A dedicated 1688 packaging mockup collection showing product variants, back panels, and presentation-ready pack visuals."
   },
   {
-    id: "naget",
-    category: "video",
-    title: "Naget",
-    detail: "Product Visual Design",
-    year: "2025",
-    cover: "./assets/naget/naget1-web.jpg",
-    gallery: [
-      "./assets/naget/naget1-web.jpg",
-      "./assets/naget/naget2-web.jpg",
-      "./assets/naget/naget3-web.jpg",
-      "./assets/naget/naget4-web.jpg",
-      "./assets/naget/naget5-web.jpg",
-      "./assets/naget/naget6-web.jpg"
-    ],
-    description: "A Naget product visual series built around food presentation, packaging clarity, and consistent brand-ready imagery."
-  },
-  {
     id: "nbs-aging",
     category: "design",
     title: "NBS Aging",
@@ -353,43 +629,6 @@ const projects = [
     description: "Campaign visual explorations for NBS, separated into its own focused project gallery."
   },
   {
-    id: "nbs-face",
-    category: "ai-production",
-    title: "NBS Face",
-    detail: "Face Product Visual Design",
-    year: "2025",
-    cover: "./assets/nbs/face/face4.jpg",
-    gallery: [
-      "./assets/nbs/face/face2-web.jpg",
-      "./assets/nbs/face/face1.jpg",
-      "./assets/nbs/face/face3-web.jpg",
-      "./assets/nbs/face/face4.jpg",
-      "./assets/nbs/face/face5.jpg",
-      "./assets/nbs/face/face6.jpg",
-      "./assets/nbs/face/face7-web.jpg",
-      "./assets/nbs/face/face8.jpg"
-    ],
-    description: "Face product visuals for NBS with dedicated beauty imagery and product presentation."
-  },
-  {
-    id: "nbs-lash",
-    category: "ai-production",
-    title: "NBS Lash",
-    detail: "Lash Product Visual Design",
-    year: "2025",
-    cover: "./assets/nbs/lash/produk2-web.jpg",
-    gallery: [
-      "./assets/nbs/lash/produk1-web.jpg",
-      "./assets/nbs/lash/produk1a-web.jpg",
-      "./assets/nbs/lash/produk1b.jpg",
-      "./assets/nbs/lash/produk2-web.jpg",
-      "./assets/nbs/lash/produk2a.jpg",
-      "./assets/nbs/lash/produk2a1.jpg",
-      "./assets/nbs/lash/produk2b.jpg"
-    ],
-    description: "Lash product visuals for NBS, focused on close-up beauty product presentation and variants."
-  },
-  {
     id: "nbs-lipstik",
     category: "design",
     title: "NBS Lipstik",
@@ -402,21 +641,6 @@ const projects = [
       "./assets/nbs/lipstik/produk1b.jpg"
     ],
     description: "Lipstik product visuals for NBS with a dedicated gallery for lip product assets."
-  },
-  {
-    id: "nbs-masker",
-    category: "ai-production",
-    title: "NBS Masker",
-    detail: "Masker Product Visual Design",
-    year: "2025",
-    cover: "./assets/nbs/masker/masker3-web.jpg",
-    gallery: [
-      "./assets/nbs/masker/masker2-web.jpg",
-      "./assets/nbs/masker/masker1.jpg",
-      "./assets/nbs/masker/masker3-web.jpg",
-      "./assets/nbs/masker/masker4.jpg"
-    ],
-    description: "Masker product visuals for NBS, grouped separately for clearer portfolio browsing."
   },
   {
     id: "nbs-sosmed",
@@ -439,22 +663,6 @@ const projects = [
       "./assets/nbs/sosmed/sosmed9-web.jpg"
     ],
     description: "NBS social media design assets grouped into a dedicated digital content project."
-  },
-  {
-    id: "piket",
-    category: "video",
-    title: "Piket",
-    detail: "Food Product Visual Design",
-    year: "2025",
-    cover: "./assets/piket/coktail1-web.jpg",
-    gallery: [
-      "./assets/piket/coktail1-web.jpg",
-      "./assets/piket/coktail2-web.jpg",
-      "./assets/piket/frankfurter.jpg",
-      "./assets/piket/smoke1-web.jpg",
-      "./assets/piket/smoke2-web.jpg"
-    ],
-    description: "A Piket food product visual set featuring cocktail, smoke, and frankfurter imagery for brand and menu presentation."
   },
   {
     id: "saturdayscent",
@@ -737,6 +945,33 @@ function renderProject(projectId) {
           </button>
         </section>
       ` : ""}
+
+  ${project.videos?.length ? `
+    <section class="local-video-gallery">
+    <h3>VIDEO GALLERY</h3>
+
+    <div class="video-grid">
+      ${project.videos.map((video, index) => `
+        <article class="local-video-item">
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            aria-label="${video.title}"
+          >
+            <source
+              src="${video.src}"
+              type="video/mp4"
+            >
+            Your browser does not support video playback.
+          </video>
+
+          <h4>${video.title}</h4>
+        </article>
+      `).join("")}
+    </div>
+  </section>
+    ` : ""}
 
       ${gallery.length ? `
         <div class="masonry-gallery">
